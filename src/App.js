@@ -40,6 +40,16 @@ const App = () => {
           >
             {" "}
           </a>
+            <a
+                target="_blank"
+                href={
+                    "https://www.linkedin.com/sharing/share-offsite/?url=" + shareLink
+                }
+                className="fa-brands fa-linkedin"
+                rel="noopener noreferrer"
+            >
+                {" "}
+            </a>
         </div>
       </header>
     </div>
